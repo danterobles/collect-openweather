@@ -1,0 +1,20 @@
+{
+  "name": "openweather-extractor",
+  "version": "1.0.0",
+  "description": "CLI collector for OpenWeather current weather data stored in SQLite.",
+  "type": "module",
+  "bin": {
+    "weather-collector": "./src/cli.js"
+  },
+  "scripts": {
+    "collect": "node src/cli.js collect",
+    "init-db": "node src/cli.js init",
+    "latest": "node src/cli.js latest",
+    "list": "node src/cli.js list",
+    "help": "node src/cli.js help"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
