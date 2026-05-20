@@ -1,4 +1,4 @@
-# OpenWeather Extractor
+# OpenWeather Extractor For analisys
 
 Recolector CLI en Node.js para consultar Current Weather Data de OpenWeather y guardar observaciones en SQLite.
 
