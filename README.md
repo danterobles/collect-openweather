@@ -206,3 +206,7 @@ Si aparece `fetch failed`, revisa conectividad a internet y que la API key sea v
 Si aparece `sqlite3: command not found`, instala SQLite o ajusta el entorno para que el binario `sqlite3` este disponible en `PATH`.
 
 Si OpenWeather responde `401`, la API key no es valida o aun no esta activa.
+
+## ToDo
+
+Parametrizar en el cli.js la posibilidad de enviar city_id para cambiar la ciudad o lat y lon
