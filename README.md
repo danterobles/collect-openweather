@@ -209,4 +209,6 @@ Si OpenWeather responde `401`, la API key no es valida o aun no esta activa.
 
 ## ToDo
 
-Parametrizar en el cli.js la posibilidad de enviar city_id para cambiar la ciudad o lat y lon
+- Parametrizar en el cli.js la posibilidad de enviar city_id para cambiar la ciudad o lat y lon
+- Agregar mas Drivers para bases de datos
+- enviar datos de JSON a server via POST
